@@ -6,7 +6,8 @@ using UnityEngine;
 
 interface IInteractable
 {
-    public void Interact();
+    public void Interact_LabSafety();
+    public void Interact_MixAndMatch();
 }
 
 public class Interactor : MonoBehaviour
@@ -24,7 +25,15 @@ public class Interactor : MonoBehaviour
             {
                 if (hitInfo.collider.gameObject.TryGetComponent(out IInteractable interactObj))
                 {
-                    interactObj.Interact();
+                    if(hitInfo.collider.gameObject.tag == "MixAndMatch")
+                    {
+                        interactObj.Interact_MixAndMatch();
+                    }
+                    if (hitInfo.collider.gameObject.tag == "LabSafety")
+                    {
+                        interactObj.Interact_LabSafety();
+                    }
+                    
                 }
             }
         }

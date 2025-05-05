@@ -24,6 +24,13 @@ public class DressUpGame : MonoBehaviour
 
     [Header("Result Text")]
     public UnityEngine.UI.Text resultText;
+    
+    // Starting.
+    void Start()
+    {
+       Cursor.lockState = CursorLockMode.None;
+       Cursor.visible = true;
+    }
 
     // Called by your Glasses buttons:
     public void SelectGlasses(int index)
