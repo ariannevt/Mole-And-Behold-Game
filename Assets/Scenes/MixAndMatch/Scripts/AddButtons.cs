@@ -19,5 +19,4 @@ public class AddButtons : MonoBehaviour
             button.transform.SetParent(puzzleField, false);
         }
     }
-
 } //AddButtons

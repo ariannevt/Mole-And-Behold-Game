@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 75a0c4b6ed6324946989642a1fce1497
+guid: e81e9d879cc63814dbfb92fc78272390
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -50,7 +50,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 0
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: au_0
+      name: earthelements_0
       rect:
         serializedVersion: 2
-        x: 37
-        y: 726
-        width: 63
-        height: 193
+        x: 0
+        y: 200
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,8 +137,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e44980ce2dfab324aae7adc29c1c4009
-      internalID: -1322200401
+      spriteID: a8a463c3527a6d544870e127666fbc62
+      internalID: 1523098901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earthelements_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b1a80bddb67164287d5de215c628f9
+      internalID: -1101874242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earthelements_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eafc99718e4494e41a63803d9345957c
+      internalID: -582324382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earthelements_3
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284f5ddcfb5d4a541a9bf7095f801822
+      internalID: -1108575947
       vertices: []
       indices: 
       edges: []
@@ -146,7 +209,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 5c2ac35694c22ff4b8f9a7ef39985107
     internalID: 0
     vertices: []
     indices: 
@@ -154,7 +217,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      au_0: -1322200401
+      earthelements_0: 1523098901
+      earthelements_1: -1101874242
+      earthelements_2: -582324382
+      earthelements_3: -1108575947
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
