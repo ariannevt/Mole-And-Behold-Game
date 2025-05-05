@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LabSafety/LabSafety.unity
     guid: d0528f8ca83ae15418019b9bcd3f8a60
+  - enabled: 1
+    path: Assets/Scenes/MixAndMatch/MixAndMatch.unity
+    guid: f7bf08f7be7e10a4db8decc9525ace6a
   m_configObjects: {}
