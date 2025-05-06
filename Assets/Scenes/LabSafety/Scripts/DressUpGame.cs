@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class DressUpGame : MonoBehaviour
@@ -76,6 +77,8 @@ public class DressUpGame : MonoBehaviour
            && shoesImage.sprite == labShoes)
         {
             resultText.text = "Good job!";
+            SceneManager.LoadScene("LabSafety", LoadSceneMode.Single);
+
         }
         else
         {
