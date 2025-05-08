@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - PuzzleButton
+  - Interactable
+  - LabSafety
+  - MixAndMatch
   layers:
   - Default
   - TransparentFX

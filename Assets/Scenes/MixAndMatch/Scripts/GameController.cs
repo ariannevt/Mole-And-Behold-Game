@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
@@ -125,13 +124,10 @@ public class GameController : MonoBehaviour
     void CheckIfTheGameIsFinished() {
         countCorrectGuesses++;
 
-        if (countCorrectGuesses == gameGuesses)
-        {
+        if (countCorrectGuesses == gameGuesses){
             Debug.Log("Game Finished");
             Debug.Log("It took you " + countGuesses + " many guess(es) to finish the game");
-            SceneManager.LoadScene("MainHub", LoadSceneMode.Single);
         }
-
     }
 
     void Shuffle(List<Sprite> list){
