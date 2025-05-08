@@ -2,6 +2,7 @@ using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using TMPro;
 
 public class DressUpGame : MonoBehaviour
 {
@@ -24,7 +25,7 @@ public class DressUpGame : MonoBehaviour
     public Sprite[] shoesOptions;   // ...
 
     [Header("Result Text")]
-    public UnityEngine.UI.Text resultText;
+    public TMPro.TextMeshProUGUI resultText;
     
     // Starting.
     void Start()

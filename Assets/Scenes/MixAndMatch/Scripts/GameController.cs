@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
@@ -27,7 +28,7 @@ public class GameController : MonoBehaviour
     private string firstGuessPuzzle, secondGuessPuzzle;
 
     void Awake() {
-        puzzles = Resources.LoadAll<Sprite>("Sprites/earthelements");
+        puzzles = Resources.LoadAll<Sprite>("Sprites/chsprites");
     }
 
     void Start()
@@ -127,6 +128,7 @@ public class GameController : MonoBehaviour
         if (countCorrectGuesses == gameGuesses){
             Debug.Log("Game Finished");
             Debug.Log("It took you " + countGuesses + " many guess(es) to finish the game");
+            SceneManager.LoadScene("MainHub", LoadSceneMode.Single);
         }
     }
 
