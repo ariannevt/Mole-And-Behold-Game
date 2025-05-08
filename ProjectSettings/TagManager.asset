@@ -5,11 +5,6 @@ TagManager:
   serializedVersion: 2
   tags:
   - PuzzleButton
-<<<<<<< Updated upstream
-  - Interactable
-  - LabSafety
-  - MixAndMatch
-=======
   - Sphere1
   - Sphere2
   - Wall
@@ -20,7 +15,6 @@ TagManager:
   - LabSafety
   - MixAndMatch
   - Reaction
->>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
