@@ -76,6 +76,11 @@ public class DressUpGame : MonoBehaviour
            && shoesImage.sprite == labShoes)
         {
             resultText.text = "Good job!";
+<<<<<<< Updated upstream
+=======
+            SceneManager.LoadScene("MainHub", LoadSceneMode.Single);
+
+>>>>>>> Stashed changes
         }
         else
         {

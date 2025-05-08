@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MixAndMatch/MixAndMatch.unity
     guid: f7bf08f7be7e10a4db8decc9525ace6a
+  - enabled: 1
+    path: Assets/Scenes/Reaction/Reaction.unity
+    guid: c0b97bee1abb16c4bb4346d3b9bf619a
   m_configObjects: {}

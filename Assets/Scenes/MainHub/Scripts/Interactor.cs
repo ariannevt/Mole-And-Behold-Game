@@ -8,6 +8,7 @@ interface IInteractable
 {
     public void Interact_LabSafety();
     public void Interact_MixAndMatch();
+    public void Interact_Reaction();
 }
 
 public class Interactor : MonoBehaviour
@@ -33,7 +34,11 @@ public class Interactor : MonoBehaviour
                     {
                         interactObj.Interact_LabSafety();
                     }
-                    
+                    if (hitInfo.collider.gameObject.tag == "Reaction")
+                    {
+                        interactObj.Interact_Reaction();
+                    }
+
                 }
             }
         }
